@@ -80,3 +80,17 @@ body{
   color:#ff7720;
   font-style:italic;
 }
+
+@media screen and (max-width: 1000px) {
+  .menu {
+      flex-direction: column;
+      align-items: center;
+  }
+}
+
+@media screen and (max-width: 670px) {
+  .menu {
+      flex-direction: column;
+      width: 100%;
+  }
+}
